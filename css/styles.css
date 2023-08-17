@@ -518,6 +518,36 @@ body {
     margin-right: 120px;
 }
 
+.footer-tabl-name {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.input-email {
+    border-radius: 4px;
+    border: 1px solid var(--white, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    width: 264px;
+    height: 40px;
+    margin-top: 16px;
+}
+
+.footer-tabl-btn {
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 4px;
+    background: #4D5AE5;
+    color: #ffffff;
+    width: 165px;
+    height: 40px;
+}
+
 /*Portfolio*/
 
 .portfolio {
@@ -728,3 +758,31 @@ body {
 .close-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.modal-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: #2E2F42;
+    text-align: center;
+    margin-top: 72px;
+}
+
+.label-modal {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    margin-top: 16px;
+    color: #8E8F99;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.48px;
+}
+
+.input-modal {
+    width: 360px;
+    height: 40px;
+}
+
